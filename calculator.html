@@ -1,0 +1,64 @@
+<!-- HTML for Calculator -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="calculator.css" media="screen"/>
+    <title>
+              Calculator
+    </title>
+    <!-- Made classes for easier CSS -->
+    <div class="Heading"></div>
+    <div class="CalculatorButtons"> </div>
+    <div class="CalculatorButtons2"> </div>
+    <div class="CalculatorButtons3"> </div>
+    <div class="CalculatorShape"> </div>   
+    </head>
+    <body>
+        <center>
+        <!-- link Jaca-Script File with HTML -->
+            <script src="calculator.js"></script>
+
+           <p> 
+            <h3 class="Heading"> Calculator </h3>
+           </p>
+
+           <p>
+        <table class="CalculatorShape">
+          
+            <tr>
+                <td colspan="3"> <input type="text" class="CalculatorButtons2" id="result"/> </td> 
+                <td> <input type="button" class="CalculatorButtons3" value="c" onclick="c()"/> </td>
+            </tr>
+
+            <tr> 
+                <td> <input type="button" class="CalculatorButtons" value="7" onclick="dis('7')"/> </td>
+                <td> <input type="button" class="CalculatorButtons" value="8" onclick="dis('8')"/> </td>
+                <td> <input type="button" class="CalculatorButtons" value="9" onclick="dis('9')"/> </td>
+                <td> <input type="button" class="CalculatorButtons" value="*" onclick="dis('*')"/> </td>
+            </tr>
+
+            <tr>
+                <td> <input type="button" class="CalculatorButtons" value="4" onclick="dis('4')"/> </td>
+                <td> <input type="button" class="CalculatorButtons" value="5" onclick="dis('5')"/> </td>
+                <td> <input type="button" class="CalculatorButtons" value="6" onclick="dis('6')"/> </td>
+                <td> <input type="button" class="CalculatorButtons" value="-" onclick="dis('-')"/> </td>
+            </tr>
+
+            <tr>
+                <td> <input type="button" class="CalculatorButtons" value="1" onclick="dis('1')"/> </td> 
+                <td> <input type="button" class="CalculatorButtons" value="2" onclick="dis('2')"/> </td> 
+                <td> <input type="button" class="CalculatorButtons" value="3" onclick="dis('3')"/> </td> 
+                <td> <input type="button" class="CalculatorButtons" value="+" onclick="dis('+')"/> </td>
+            </tr>
+
+            <tr>
+                <td> <input type="button" class="CalculatorButtons" value="." onclick="dis('.')"/> </td>
+                <td> <input type="button" class="CalculatorButtons" value="0" onclick="dis('0')"/> </td>
+                <td> <input type="button" class="CalculatorButtons" value="=" onclick="solve()"/> </td>
+                <td> <input type="button" class="CalculatorButtons" value="/" onclick="dis('/')"/> </td>
+            </tr>
+        </table>
+           </p>
+        </center>
+    </body>
+</html>     

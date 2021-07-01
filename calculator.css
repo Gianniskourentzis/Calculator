@@ -1,0 +1,39 @@
+/* CSS for calculator */
+
+    .Heading{
+    text-align: center;
+    color: blue;
+    padding: 0;
+    }
+
+    .CalculatorButtons{
+    text-align: center;
+    width:  2cm;
+    height: 2cm;
+    font-size: 1.2cm;
+    font-style: italic;
+    padding: 0;
+    color:red;
+    }
+
+    .CalculatorShape{
+    text-align: center;
+    background-color:lightblue;
+    padding: 0;
+    }
+
+    .CalculatorButtons3{
+    text-align: center;
+    width:  2cm;
+    height: 2cm;
+    font-size: 1cm;
+    padding: 0;
+    }
+
+    .CalculatorButtons2{
+    width:  6.1cm;
+    height: 2cm;
+    padding: 0;
+    text-align: right;
+    font-size: 1cm;
+    }  
